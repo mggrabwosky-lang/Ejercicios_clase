@@ -20,3 +20,12 @@ for(let i=1;i<b;i++){
 }
 return product;
 }
+//DIVISION
+const divideNumbers =(a,b)=>{
+    if(b==0){
+        return "ERROR: No se puede dividir entre 0";
+    }else{
+        let result=a/b;
+        return result;
+    }
+}
