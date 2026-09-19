@@ -29,3 +29,8 @@ const divideNumbers =(a,b)=>{
         return result;
     }
 }
+//MOSTRAR RESULTADOS
+console.log(addNumbers(a,b));
+console.log(abstractNumbers(a.b));
+console.log(multiplyNumbers(a,b));
+console.log(divideNumbers(a,b));
