@@ -12,3 +12,11 @@ const abstractNumbers =(a,b)=>{
     let result=a-b;
     return result;
 }
+//MULTIPLICACION
+const multiplyNumbers=(a,b)=>{
+let product =a;
+for(let i=1;i<b;i++){
+    product = product +a;
+}
+return product;
+}
